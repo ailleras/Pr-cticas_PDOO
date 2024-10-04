@@ -59,8 +59,8 @@ public class Practica_1 {
             return uses;
         }
         
-        public static boolean discard(){
-            return discardElement(usesLeft);
+        public boolean discard(){
+            return Dice.discardElement(uses);
         }
     }
     
@@ -95,8 +95,8 @@ public class Practica_1 {
             return uses;
         }
         
-        public static boolean discard(){
-            return discardElement(usesLeft);
+        public boolean discard(){
+            return Dice.discardElement(uses);
         }
     }
     
