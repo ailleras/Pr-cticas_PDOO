@@ -56,4 +56,45 @@ public class Postor {
                 "\nPujas realizadas: " + pujasStr +
                 "\nCompras realizadas: " + comprasStr;
     }
+    
+    public static int getNumPostor(){
+        return numPostor;
+    }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public float getDineroDisponible(){
+        return dineroDisponible;
+    }
+    
+    public ArrayList<Articulo> getPujas(){
+        return pujas;
+    }
+    
+    public ArrayList<Articulo> getCompras(){
+        return compras;
+    }
+    
+    
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+    
+    public void setDineroDisponible(float dineroDisponible){
+        this.dineroDisponible=Math.max(dineroDisponible, MIN_CAPITAL);
+    }
+    
+    public void setPujas(ArrayList<Articulo> pujas){
+        this.pujas=pujas;
+    }
+    
+    public void setCompras(ArrayList<Articulo> compras){
+        this.compras=compras;
+    }
+
+    boolean getPuja() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

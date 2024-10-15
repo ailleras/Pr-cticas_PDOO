@@ -113,8 +113,8 @@ public class Articulo {
         if(!postores.isEmpty()){
             Postor mejor = postores.get(0);
             for(Postor postor : postores){
-                if(postor.getPuja()>mejor.getPuja()){
-                    mejor=postor;
+                if(postor.getPuja() > mejor.getPuja()){
+                    mejor=postor;   
                 }
             }
             this.mejorPostor=mejor;
