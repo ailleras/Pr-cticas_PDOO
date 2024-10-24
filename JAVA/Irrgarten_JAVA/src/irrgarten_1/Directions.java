@@ -2,13 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
  */
-package irrgarten;
+package irrgarten_1;
 
 /**
  *
  * @author alejandro
  */
-public enum Orientation {
-    VERTICAL,
-    HORIZONTAL
+public enum Directions {
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN
 }
